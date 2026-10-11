@@ -16,6 +16,10 @@
 
 DEVICE_PATH := device/samsung/f41
 
+# NFC
+TARGET_USES_NXP_NFC := false
+TARGET_USES_SLSI_NFC := false
+
 # Inherit common device configuration
 $(call inherit-product, device/samsung/universal9611-common/common.mk)
 # Inherit F41 blobs
